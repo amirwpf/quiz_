@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\software\\exe\\visual studio 2022\\maktabSh\\CW\\CW12\\quiz_\\quiz_\\quiz_.csproj",
+      "projectUniqueName": "F:\\software\\exe\\visual studio 2022\\maktabSh\\CW\\CW12\\New folder\\quiz_\\quiz_\\quiz_.csproj",
       "projectName": "quiz_",
-      "projectPath": "F:\\software\\exe\\visual studio 2022\\maktabSh\\CW\\CW12\\quiz_\\quiz_\\quiz_.csproj",
+      "projectPath": "F:\\software\\exe\\visual studio 2022\\maktabSh\\CW\\CW12\\New folder\\quiz_\\quiz_\\quiz_.csproj",
       "packagesPath": "C:\\Users\\amir\\.nuget\\packages\\",
-      "outputPath": "F:\\software\\exe\\visual studio 2022\\maktabSh\\CW\\CW12\\quiz_\\quiz_\\obj\\",
+      "outputPath": "F:\\software\\exe\\visual studio 2022\\maktabSh\\CW\\CW12\\New folder\\quiz_\\quiz_\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",

@@ -8,17 +8,26 @@ namespace quiz_.Controllers
 
     class HomeController : Controller
     {
-        [HttpDelete]
-        public IActionResult ExampleAction(string actionName)
+ 
+        public IActionResult Index()
         {
-            return null;
+            HttpContext.Response.Cookies.Append("exampleCookie1", "valueExampleCookie1");
+            HttpContext.Session.SetString("exampleSession1", "valueExampleSession1");
+            return View();
+        }
+        
+        public IActionResult Privacy()
+        {
+            return View();
         }
 
         [ValidateAntiForgeryToken]
         [HttpDelete]
-        public IActionResult AnotherAction(string actionName)
+        public IActionResult ExampleMethod([FromForm] string name)
         {
-            return null;
+            var cookie1 = HttpContext.Request.Cookies["exampleCookie1"];
+            var session1 = HttpContext.Session.GetString("exampleSession1");
+            return View();
         }
     }
 }
